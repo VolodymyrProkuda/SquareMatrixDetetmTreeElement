@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="73dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        android:hint="a31"
+        android:inputType="numberDecimal"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="@+id/textAboutMatrix"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutMatrix" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="73dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="96dp"
+        android:hint="a32"
+        android:inputType="numberDecimal"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="@+id/textAboutMatrix"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutMatrix" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="73dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="96dp"
+        android:hint="a33"
+        android:inputType="numberDecimal"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="@+id/textAboutMatrix"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutMatrix" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="305dp"
+        android:layout_height="231dp"
+        android:contentDescription="imageMatrixDeterm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        app:srcCompat="@drawable/determmatr" />
+
+    <TextView
+        android:id="@+id/textAboutMatrix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill the boxes to find determinant"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="73dp"
+        android:layout_height="48dp"
+        android:hint="a11"
+        android:inputType="numberDecimal"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="@+id/textAboutMatrix"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutMatrix" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="73dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:hint="a21"
+        android:inputType="numberDecimal"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="@+id/textAboutMatrix"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutMatrix" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="73dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="48dp"
+        android:hint="a22"
+        android:inputType="numberDecimal"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="@+id/textAboutMatrix"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutMatrix" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="73dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="48dp"
+        android:hint="a23"
+        android:inputType="numberDecimal"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="@+id/textAboutMatrix"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutMatrix" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="73dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="112dp"
+        android:hint="a12"
+        android:inputType="numberDecimal"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="@+id/textAboutMatrix"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutMatrix" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="73dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="212dp"
+        android:hint="a13"
+        android:inputType="numberDecimal"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="@+id/textAboutMatrix"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutMatrix" />
+
+    <Button
+        android:id="@+id/buttonDeterminator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Determinant = "
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/editText8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
